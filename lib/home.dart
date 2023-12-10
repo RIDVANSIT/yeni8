@@ -100,6 +100,7 @@ class _userSection extends StatelessWidget {
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                     
                       children: [
                         Column(
                           children: [
