@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:yeni8/gen/assets.gen.dart';
 
 class UserModel {
   String name;
-  String iconPath;
+  Image userPic;
   Color boxColor;
 
   UserModel({
     required this.name,
-    required this.iconPath,
+    required this.userPic,
     required this.boxColor,
   });
 
@@ -15,24 +16,43 @@ class UserModel {
     List<UserModel> categories = [];
 
     categories.add(UserModel(
-        name: 'Salad',
-        iconPath: 'assets/icons/plate.svg',
-        boxColor: const Color(0xff9DCEFF)));
+        name: 'ali',
+        userPic: Assets.images.round.image(scale: 2),
+        boxColor: Color.fromARGB(255, 255, 255, 255)));
 
     categories.add(UserModel(
-        name: 'Cake',
-        iconPath: 'assets/icons/pancakes.svg',
-        boxColor: const Color(0xffEEA4CE)));
+        name: 'veli',
+         userPic: Assets.images.round2.image(scale: 2),
+        boxColor: Color.fromARGB(255, 255, 255, 255)));
 
     categories.add(UserModel(
-        name: 'Pie',
-        iconPath: 'assets/icons/pie.svg',
-        boxColor: const Color(0xff9DCEFF)));
+        name: 'şevket',
+         userPic: Assets.images.round2.image(scale: 2),
+        boxColor: Color.fromARGB(255, 255, 255, 255)));
 
     categories.add(UserModel(
-        name: 'Smoothies',
-        iconPath: 'assets/icons/orange-snacks.svg',
-        boxColor: const Color(0xffEEA4CE)));
+        name: 'trt',
+         userPic: Assets.images.round.image(scale: 2),
+        boxColor: Color.fromARGB(255, 255, 255, 255)));
+        categories.add(UserModel(
+        name: 'Salfdad',
+        userPic: Assets.images.round.image(scale: 2),
+        boxColor: Color.fromARGB(255, 255, 255, 255)));
+
+    categories.add(UserModel(
+        name: 'rt',
+         userPic: Assets.images.round2.image(scale: 2),
+        boxColor: Color.fromARGB(255, 255, 255, 255)));
+
+    categories.add(UserModel(
+        name: 'htrhtr',
+         userPic: Assets.images.round2.image(scale: 2),
+        boxColor: Color.fromARGB(255, 255, 255, 255)));
+
+    categories.add(UserModel(
+        name: 'fdvf',
+         userPic: Assets.images.round.image(scale: 2),
+        boxColor: Color.fromARGB(255, 255, 255, 255)));
 
     return categories;
   }

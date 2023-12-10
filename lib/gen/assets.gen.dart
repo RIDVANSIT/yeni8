@@ -32,6 +32,12 @@ class $AssetsImagesGen {
   AssetGenImage get mailStrokeIcon =>
       const AssetGenImage('assets/images/mailStrokeIcon.png');
 
+  /// File path: assets/images/round.png
+  AssetGenImage get round => const AssetGenImage('assets/images/round.png');
+
+  /// File path: assets/images/round2.png
+  AssetGenImage get round2 => const AssetGenImage('assets/images/round2.png');
+
   /// File path: assets/images/searchStrokeIcon.png
   AssetGenImage get searchStrokeIcon =>
       const AssetGenImage('assets/images/searchStrokeIcon.png');
@@ -43,6 +49,8 @@ class $AssetsImagesGen {
         homeSolidIcon,
         leftArrowIcon,
         mailStrokeIcon,
+        round,
+        round2,
         searchStrokeIcon
       ];
 }
